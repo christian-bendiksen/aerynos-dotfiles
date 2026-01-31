@@ -1,0 +1,151 @@
+repositories {
+    local {
+        description ...
+        uri "file:///home/christian/.cache/local_repo/x86_64/stone.index"
+        priority 100
+    }
+    unstable {
+        description ...
+        uri "https://cdn.aerynos.dev/unstable/x86_64/stone.index"
+        priority 0
+    }
+    volatile {
+        description ...
+        uri "https://build.aerynos.dev/volatile/x86_64/stone.index"
+        priority 10
+    }
+}
+packages {
+    bash
+    bash-completion
+    boulder
+    brightnessctl
+    brush
+    build-essential
+    ca-certificates
+    cava
+    celluloid
+    curl
+    dash
+    dbus
+    dbus-broker
+    dmidecode
+    e2fsprogs
+    f2fs-tools
+    fastfetch
+    ffmpegthumbnailer
+    file
+    file-roller
+    findutils
+    firefox
+    flatpak
+    font-hack
+    font-noto
+    font-noto-emoji
+    gawk
+    gdb
+    gdm
+    git
+    gnome-backgrounds
+    gnome-calculator
+    gnome-calendar
+    gnome-clocks
+    gnome-control-center
+    gnome-disk-utility
+    gnome-software
+    gnome-text-editor
+    gnome-tweaks
+    gnome-weather
+    gpu-screen-recorder
+    grep
+    gzip
+    helix
+    htop
+    hyperv-daemons
+    intel-microcode
+    iproute2
+    iputils
+    jujutsu
+    kbd
+    kitty
+    kmod
+    less
+    liberation-fonts-ttf
+    linux-desktop
+    linux-firmware
+    linux-firmware-amd-graphics
+    linux-firmware-amd64-microcode
+    linux-firmware-atheros
+    linux-firmware-brcm80211
+    linux-firmware-cirrus
+    linux-firmware-intel-graphics
+    linux-firmware-intel-misc
+    linux-firmware-intel-sound
+    linux-firmware-iwlwifi
+    linux-firmware-libertas
+    linux-firmware-mediatek
+    linux-firmware-misc
+    linux-firmware-nvidia-graphics
+    linux-firmware-realtek
+    linux-firmware-ti-connectivity
+    loupe
+    ltrace
+    lvm2
+    mangowc
+    mangowc-dbginfo
+    matugen
+    mesa-demos-minimal
+    meson
+    moss
+    nautilus
+    ninja
+    niri
+    openssh
+    papers
+    pciutils
+    perf
+    pixman-dbginfo
+    pkgset-aeryn-base
+    pkgset-aeryn-base-desktop
+    pkgset-aeryn-virtual
+    plymouth
+    procps
+    psmisc
+    python
+    qemu-guest-agent
+    quickshell
+    resources
+    scenefx-dbginfo
+    scenefx-devel
+    screen
+    scx-scheds
+    sed
+    serpent-gnome-defaults
+    shadow
+    slurp
+    snapshot
+    sof-firmware
+    spice-vdagent
+    starship
+    sudo-rs
+    systemd
+    tar
+    tzdata
+    unzip
+    usbutils
+    util-linux
+    uutils-coreutils
+    vulkan-tools
+    wayland-dbginfo
+    wayland-utils
+    weston-demo
+    wget
+    which
+    wlroots-dbginfo
+    xdg-desktop-portal-wlr
+    xfsprogs
+    yazi
+    yq
+    zed
+    zram-generator-defaults
+}
