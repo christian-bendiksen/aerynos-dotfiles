@@ -1,0 +1,104 @@
+shell_integration disabled
+
+font_family      FiraSans Nerd Font
+bold_font        auto
+italic_font      auto
+bold_italic_font auto
+
+font_size 12.5
+
+# Improve readability
+adjust_line_height 1
+adjust_column_width 0
+
+# =========================
+# Cursor
+# =========================
+cursor_shape block
+cursor_blink_interval 0
+cursor_stop_blinking_after 0
+
+# =========================
+# Scrollback
+# =========================
+scrollback_lines 10000
+scrollback_pager less --chop-long-lines --RAW-CONTROL-CHARS +INPUT_LINE_NUMBER
+
+# =========================
+# Mouse
+# =========================
+mouse_hide_wait 3
+copy_on_select yes
+
+# =========================
+# URL handling
+# =========================
+detect_urls yes
+open_url_with default
+
+# =========================
+# Window layout
+# =========================
+remember_window_size yes
+initial_window_width  1200
+initial_window_height 800
+
+window_padding_width 8
+placement_strategy center
+
+# =========================
+# Tabs
+# =========================
+enable_tab_bar yes
+tab_bar_style powerline
+tab_powerline_style angled
+tab_title_template "{index}: {title}"
+active_tab_font_style bold
+
+# =========================
+# Bell
+# =========================
+enable_audio_bell no
+visual_bell_duration 0
+
+# =========================
+# Performance
+# =========================
+repaint_delay 10
+input_delay 3
+sync_to_monitor yes
+
+# =========================
+# Clipboard
+# =========================
+clipboard_control write-clipboard write-primary read-clipboard read-primary
+
+# =========================
+# Keybindings
+# =========================
+
+# New tab
+map ctrl+shift+t new_tab
+
+# Close tab
+map ctrl+shift+w close_tab
+
+# Next / previous tab
+map ctrl+tab next_tab
+map ctrl+shift+tab previous_tab
+
+# Split panes
+map ctrl+shift+enter launch --location=hsplit
+map ctrl+shift+\ launch --location=vsplit
+
+# Navigate panes
+map ctrl+shift+h neighboring_window left
+map ctrl+shift+j neighboring_window down
+map ctrl+shift+k neighboring_window up
+map ctrl+shift+l neighboring_window right
+
+# Resize panes
+map ctrl+shift+left resize_window narrower
+map ctrl+shift+right resize_window wider
+map ctrl+shift+up resize_window taller
+map ctrl+shift+down resize_window shorter

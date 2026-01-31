@@ -1,0 +1,6 @@
+theme = "noctalia"
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "bar"
+select = "underline"
