@@ -1,5 +1,3 @@
-1: adw-gtk3 needed.
-
-2: Jetbrains Mono Nerd Font, Inter, Noto Serif fonts
-
-3: Noctalia-shell
+# Install on a new Aerynos Console Install
+git clone https://github.com/christian-bendiksen/configs .config && cd .config
+./install.sh
