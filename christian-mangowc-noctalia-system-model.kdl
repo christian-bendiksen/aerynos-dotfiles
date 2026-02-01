@@ -26,6 +26,9 @@ packages {
     linux-firmware-realtek
     linux-firmware-ti-connectivity
     sof-firmware
+    curl
+    imagemagick
+    python
     brightnessctl
     cava
     firefox
