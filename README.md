@@ -10,7 +10,7 @@ sudo moss it curl
 Run the following commands to pull the configurations into your `.config` directory and execute the setup script:
 
 ```bash
-git clone https://github.com/christian-bendiksen/configs .config
+git clone https://github.com/christian-bendiksen/aerynos-dotfiles .config
 cd .config
 ./install.sh
 ```
