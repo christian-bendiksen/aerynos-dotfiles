@@ -44,4 +44,5 @@ packages {
     wlsunset
     yazi
     xdg-desktop-portal-wlr
+    loupe
 }
